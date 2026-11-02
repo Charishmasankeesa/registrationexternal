@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 480px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 14px;
+    }
+
+    input,
+    textarea,
+    button {
+      box-sizing: border-box;
+      width: 100%;
+      margin-top: 6px;
+      padding: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hackathon Registration</h1>
+  <form>
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" required>
+
+    <label for="age">Age</label>
+    <input id="age" name="age" type="number" min="1" required>
+
+    <label for="class">Class</label>
+    <input id="class" name="class" type="text" required>
+
+    <label for="team-name">Team Name</label>
+    <input id="team-name" name="team-name" type="text" required>
+
+    <label for="team-details">Team Details</label>
+    <textarea id="team-details" name="team-details" rows="3"></textarea>
+
+    <label for="semester">Semester</label>
+    <input id="semester" name="semester" type="text" required>
+
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
